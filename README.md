@@ -30,7 +30,7 @@ vi .wakeup
 按i插入：
 ```
 sh /你的路径/huawei-sound.sh &
-killall Teiminal
+killall Terminal
 ```
 按esc然后输入
 `:wq`
@@ -44,7 +44,7 @@ vi hwsound-fix
 按i插入：
 ```
 sh /你的路径/huawei-sound.sh &
-killall Teiminal
+killall Terminal
 ```
 按esc然后输入
 `:wq`
