@@ -1,6 +1,14 @@
 # Hackintosh-For-MatebookX
 
 安装的Mojave基本完美，日常使用没有问题。
+## 我的电脑配置：
+* CPU:I5-7200U
+* GPU:INTEL HD 620
+* 内存：Micron 4GB*2
+* 固态硬盘：LITEON CB1-SD256
+* 声卡：Realtek ALC298
+* 显示器：2160x1440 2k
+
 ## 更新：
 * 修复亮度快捷键，其他快捷键使用[karabiner-elements](https://github.com/tekezo/Karabiner-Elements)软件映射。
 * 使用sleepwatcher设置每次唤醒时自动后台运行Huawei-sound.sh修复右边扬声器不工作。
@@ -41,13 +49,7 @@ killall Teiminal
 按esc然后输入
 `:wq`
 在系统偏好设置的用户与群组登录项里添加hwsound-fix
-## 我的电脑配置：
-* CPU:I5-7200U
-* GPU:INTEL HD 620
-* 内存：Micron 4GB*2
-* 固态硬盘：LITEON CB1-SD256
-* 声卡：Realtek ALC298
-* 显示器：2160*1440 2k
+
 
 ## 工作：
 * cpu变频
