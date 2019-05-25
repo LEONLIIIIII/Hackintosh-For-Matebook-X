@@ -1,0 +1,2 @@
+sh /Users/leonli/huawei-sound.sh &
+killall Teiminal

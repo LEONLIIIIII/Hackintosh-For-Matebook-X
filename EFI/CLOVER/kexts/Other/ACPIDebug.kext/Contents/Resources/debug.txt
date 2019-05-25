@@ -1,0 +1,124 @@
+#Maintained by: RehabMan for: Laptop Patches
+#debug.txt
+
+#
+# Facility for writing trace output to system.log
+#
+# Use in conjunction with ACPIDebug.kext
+#
+# EXPERIMENTAL
+#
+# Written by RehabMan 2013-10-15
+#
+
+into device label RMDT remove_entry;
+into definitionblock code_regex . insert
+begin
+Device (RMDT)\n
+{\n
+    Name (_HID, "RMD0000")\n
+    Name (RING, Package(256) { })\n
+    Mutex (RTMX, 0)\n
+    Name (HEAD, 0)\n
+    Name (TAIL, 0)\n
+    // PUSH: Use to push a trace item into RING for ACPIDebug.kext\n
+    Method (PUSH, 1, NotSerialized)\n
+    {\n
+        Acquire(RTMX, 0xFFFF)\n
+        // push new item at HEAD\n
+        Add(HEAD, 1, Local0)\n
+        If (LGreaterEqual(Local0, SizeOf(RING))) { Store(0, Local0) }\n
+        if (LNotEqual(Local0, TAIL))\n
+        {\n
+            Store(Arg0, Index(RING, HEAD))\n
+            Store(Local0, HEAD)\n
+        }\n
+        Release(RTMX)\n
+        Notify(RMDT, 0x80)\n
+    }\n
+    // FTCH: Used by ACPIDebug.kext to fetch an item from RING\n
+    Method (FTCH, 0, NotSerialized)\n
+    {\n
+        Acquire(RTMX, 0xFFFF)\n
+        // pull item from TAIL and return it\n
+        Store(0, Local0)\n
+        if (LNotEqual(HEAD, TAIL))\n
+        {\n
+            Store(DerefOf(Index(RING, TAIL)), Local0)\n
+            Increment(TAIL)\n
+            If (LGreaterEqual(TAIL, SizeOf(RING))) { Store(0, TAIL) }\n
+        }\n
+        Release(RTMX)\n
+        Return(Local0)\n
+    }\n
+    // COUN: Used by ACPIDebug.kext to determine number of items in RING\n
+    Method (COUN, 0, NotSerialized)\n
+    {\n
+        Acquire(RTMX, 0xFFFF)\n
+        // return count of items in RING\n
+        Subtract(HEAD, TAIL, Local0)\n
+        if (LLess(Local0, 0)) { Add(Local0, SizeOf(RING), Local0) }\n
+        Release(RTMX)\n
+        Return(Local0)\n
+    }\n
+    // Helper functions for multiple params at one time\n
+    Method (P1, 1, NotSerialized) { PUSH(Arg0) }\n
+    Method (P2, 2, Serialized)\n
+    {\n
+        Name (TEMP, Package(2) { })\n
+        Store(Arg0, Index(TEMP, 0))\n
+        Store(Arg1, Index(TEMP, 1))\n
+        PUSH(TEMP)\n
+    }\n
+    Method (P3, 3, Serialized)\n
+    {\n
+        Name (TEMP, Package(3) { })\n
+        Store(Arg0, Index(TEMP, 0))\n
+        Store(Arg1, Index(TEMP, 1))\n
+        Store(Arg2, Index(TEMP, 2))\n
+        PUSH(TEMP)\n
+    }\n
+    Method (P4, 4, Serialized)\n
+    {\n
+        Name (TEMP, Package(4) { })\n
+        Store(Arg0, Index(TEMP, 0))\n
+        Store(Arg1, Index(TEMP, 1))\n
+        Store(Arg2, Index(TEMP, 2))\n
+        Store(Arg3, Index(TEMP, 3))\n
+        PUSH(TEMP)\n
+    }\n
+    Method (P5, 5, Serialized)\n
+    {\n
+        Name (TEMP, Package(5) { })\n
+        Store(Arg0, Index(TEMP, 0))\n
+        Store(Arg1, Index(TEMP, 1))\n
+        Store(Arg2, Index(TEMP, 2))\n
+        Store(Arg3, Index(TEMP, 3))\n
+        Store(Arg4, Index(TEMP, 4))\n
+        PUSH(TEMP)\n
+    }\n
+    Method (P6, 6, Serialized)\n
+    {\n
+        Name (TEMP, Package(6) { })\n
+        Store(Arg0, Index(TEMP, 0))\n
+        Store(Arg1, Index(TEMP, 1))\n
+        Store(Arg2, Index(TEMP, 2))\n
+        Store(Arg3, Index(TEMP, 3))\n
+        Store(Arg4, Index(TEMP, 4))\n
+        Store(Arg5, Index(TEMP, 5))\n
+        PUSH(TEMP)\n
+    }\n
+    Method (P7, 7, Serialized)\n
+    {\n
+        Name (TEMP, Package(7) { })\n
+        Store(Arg0, Index(TEMP, 0))\n
+        Store(Arg1, Index(TEMP, 1))\n
+        Store(Arg2, Index(TEMP, 2))\n
+        Store(Arg3, Index(TEMP, 3))\n
+        Store(Arg4, Index(TEMP, 4))\n
+        Store(Arg5, Index(TEMP, 5))\n
+        Store(Arg6, Index(TEMP, 6))\n
+        PUSH(TEMP)\n
+    }\n
+}\n
+end;
