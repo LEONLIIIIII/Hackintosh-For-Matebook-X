@@ -60,7 +60,7 @@ killall Teiminal
 * 睡眠以及唤醒
 * 自动亮度调节亮度调节
 * 蓝牙（从windows下热启动）
-声卡
+* 声卡
 ## 不工作：
 * WIFI（intel板载无线网卡无解，也无法更换，但是能用usb无线网卡）
 * iMessage，FaceTime不可使用（无对应机型的白果三码）
