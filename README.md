@@ -72,7 +72,7 @@ killall Terminal
 ## 开启原生HIDPI
 将DisplayVendorID-dae文件夹和Icons.plist放到系统⁩\⁨资源库\Displays⁩\⁨Contents\Resources\⁨Overrides文件夹下开启hidpi
 ## 感谢：
-* [远景论坛](pcbeta.com)
+* [远景论坛](https://www.pcbeta.com)
 * [github: gnodipac886/MatebookXPro-hackintosh](https://github.com/gnodipac886/MatebookXPro-hackintosh)
 * [Issue:Right channel audio not working ](https://github.com/lidel/linux-on-huawei-matebook-x-2017/issues/8) in [lidel/linux-on-huawei-matebook-x-2017](https://github.com/lidel/linux-on-huawei-matebook-x-2017)
 
