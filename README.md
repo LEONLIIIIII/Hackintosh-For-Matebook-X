@@ -10,6 +10,7 @@
 * 显示器：2160x1440 2k
 
 ## 更新：
+* 修复iMessage、FaceTime、Siri，感谢Matebook X Pro群里的小伙伴提供帮助。
 * 修复亮度快捷键，其他快捷键使用[karabiner-elements](https://github.com/tekezo/Karabiner-Elements)软件映射。
 * 使用sleepwatcher设置每次唤醒时自动后台运行Huawei-sound.sh修复右边扬声器不工作,步骤如下：
 
