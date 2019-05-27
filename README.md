@@ -66,10 +66,10 @@ killall Terminal
 * 声卡
 ## 不工作：
 * WIFI（intel板载无线网卡无解，也无法更换，但是能用usb无线网卡）
-* iMessage，FaceTime不可使用（无对应机型的白果三码）
+* ~~iMessage，FaceTime不可使用（无对应机型的白果三码）~~
 
 ## 修复右扬声器
-用终端运行Huawei-sound.sh修复右边扬声器不工作
+~~用终端运行Huawei-sound.sh修复右边扬声器不工作~~ 见更新内容
 ## 开启原生HIDPI
 将DisplayVendorID-dae文件夹和Icons.plist放到系统⁩\⁨资源库\Displays⁩\⁨Contents\Resources\⁨Overrides文件夹下开启hidpi
 ## 感谢：
