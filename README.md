@@ -57,7 +57,7 @@ killall Terminal
 * cpu变频
 * 显卡hd620
 * 键盘以及背光
-* usb tpyec
+* usb type-c
 * 多指触控板以及手势操作
 * 2K HIDPI屏
 * 摄像头
