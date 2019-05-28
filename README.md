@@ -10,6 +10,7 @@
 * 显示器：2160x1440 2k
 
 ## 更新：
+* 更新注入声卡id，同时使用ALCPlugFix修复耳麦自动切换，感谢远景论坛网友提供帮助。
 * 修复iMessage、FaceTime、Siri，感谢Matebook X Pro群里的小伙伴提供帮助。
 * 修复亮度快捷键，其他快捷键使用[karabiner-elements](https://github.com/tekezo/Karabiner-Elements)软件映射。
 * 使用sleepwatcher设置每次唤醒时自动后台运行Huawei-sound.sh修复右边扬声器不工作,步骤如下：
@@ -76,4 +77,5 @@ killall Terminal
 * [远景论坛-微软极客社区](http://www.pcbeta.com)
 * [github: gnodipac886/MatebookXPro-hackintosh](https://github.com/gnodipac886/MatebookXPro-hackintosh)
 * [Issue:Right channel audio not working ](https://github.com/lidel/linux-on-huawei-matebook-x-2017/issues/8) in [lidel/linux-on-huawei-matebook-x-2017](https://github.com/lidel/linux-on-huawei-matebook-x-2017)
+* [github:goodwin/ALCPlugFix](https://github.com/goodwin/ALCPlugFix)
 
