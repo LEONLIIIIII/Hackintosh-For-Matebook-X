@@ -56,6 +56,8 @@ killall Terminal
 `:wq`
 在系统偏好设置的用户与群组登录项里添加hwsound-fix
 
+(PS: 如果运行huawei-sound.sh提示hda-verb common not found，将CLOVER/kexts/Other/CodecCommander.kext安装至系统分区并修复权限和重建缓存重启)
+
 
 ## 工作：
 * cpu变频
