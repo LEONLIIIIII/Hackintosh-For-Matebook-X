@@ -189,19 +189,17 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0</string>
+		<string>dart=0 igfxrst=1 keepsyms=1</string>
 		<key>CustomLogo</key>
-		<false/>
+		<string>Theme</string>
 		<key>Debug</key>
 		<false/>
-		<key>Default Loader</key>
-		<string>bootmgfw.efi</string>
-		<key>DefaultLoader</key>
-		<string>bootmgfw.efi</string>
 		<key>DefaultVolume</key>
 		<string>OS X</string>
 		<key>Legacy</key>
 		<string>PBR</string>
+		<key>NoEarlyProgress</key>
+		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
@@ -273,7 +271,6 @@
 		<key>Hide</key>
 		<array>
 			<string>BOOTX64.EFI</string>
-			<string>Windows</string>
 			<string>preboot</string>
 		</array>
 		<key>Language</key>
@@ -283,7 +280,7 @@
 			<key>DoubleClick</key>
 			<integer>500</integer>
 			<key>Enabled</key>
-			<true/>
+			<false/>
 			<key>Mirror</key>
 			<false/>
 			<key>Speed</key>
@@ -295,9 +292,13 @@
 			<true/>
 			<key>Legacy</key>
 			<false/>
+			<key>Linux</key>
+			<false/>
 			<key>Tool</key>
 			<false/>
 		</dict>
+		<key>ScreenResolution</key>
+		<string>2160x1440</string>
 		<key>Theme</key>
 		<string>imac.hk</string>
 	</dict>
@@ -488,7 +489,7 @@
 		<string>0x67</string>
 		<key>ROM</key>
 		<data>
-		zZs7VWcA
+		4dSrCX4t
 		</data>
 	</dict>
 	<key>SMBIOS</key>
@@ -504,7 +505,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02706403GUHRPCCB</string>
+		<string>C02746700J9HRPCFB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -532,16 +533,16 @@
 		<key>ProductName</key>
 		<string>MacBookPro14,2</string>
 		<key>SerialNumber</key>
-		<string>C02T7123HV2N</string>
+		<string>C02VP00ZHV2N</string>
 		<key>SmUUID</key>
-		<string>B23A1325-B2D9-5277-9ED4-AB8CD25FD37D</string>
+		<string>2C224C02-36D5-4185-BBFD-95C2DC097E2D</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>B23A1325-B2D9-5277-9ED4-AB8CD25FD37D</string>
+		<string>D94DCEAB-3F12-42E1-9D33-A0756F1FE709</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
