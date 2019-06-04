@@ -55,7 +55,7 @@ killall Terminal
 按esc然后输入
 `:wq`
 在系统偏好设置的用户与群组登录项里添加hwsound-fix
-
+(注：如果运行huawei-sound.sh提示hda verb：command not found，先安装一下alc298_fix文件夹里的自动安装脚本)
 
 ## 工作：
 * cpu变频
