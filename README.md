@@ -10,6 +10,8 @@
 * 显示器：2160x1440 2k
 
 ## 更新：
+* 更新最新驱动支持10.15Beta，无痛升级。
+* 更换电源管理驱动，提高充电功率。
 * 更新注入声卡id，同时使用ALCPlugFix修复耳麦自动切换，感谢远景论坛网友提供帮助。
 * 修复iMessage、FaceTime、Siri，感谢Matebook X Pro群里的小伙伴提供帮助。
 * 修复亮度快捷键，其他快捷键使用[karabiner-elements](https://github.com/tekezo/Karabiner-Elements)软件映射。
