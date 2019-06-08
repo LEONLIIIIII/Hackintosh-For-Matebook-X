@@ -15,11 +15,11 @@
 * 修复亮度快捷键，其他快捷键使用[karabiner-elements](https://github.com/tekezo/Karabiner-Elements)软件映射。
 * 使用sleepwatcher设置每次唤醒时自动后台运行Huawei-sound.sh修复右边扬声器不工作,步骤如下：
 
-先安装brew：
+先安装brew，打开终端，运行：
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-打开终端，运行：
+brew安装成功后，再运行：
 ```
 brew install sleepwatcher
 ```
@@ -55,7 +55,7 @@ killall Terminal
 按esc然后输入
 `:wq`
 在系统偏好设置的用户与群组登录项里添加hwsound-fix
-
+(注：如果运行huawei-sound.sh提示hda verb：command not found，先安装一下alc298_fix文件夹里的自动安装脚本)
 
 ## 工作：
 * cpu变频
