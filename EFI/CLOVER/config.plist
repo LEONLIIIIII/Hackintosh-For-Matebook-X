@@ -501,7 +501,7 @@
 		<string>0x67</string>
 		<key>ROM</key>
 		<data>
-		zZs7VWcA
+		4dSrCX4t
 		</data>
 	</dict>
 	<key>SMBIOS</key>
@@ -517,7 +517,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02706403GUHRPCCB</string>
+		<string>C02746700J9HRPCFB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -545,16 +545,16 @@
 		<key>ProductName</key>
 		<string>MacBookPro14,2</string>
 		<key>SerialNumber</key>
-		<string>C02T7123HV2N</string>
+		<string>C02VP00ZHV2N</string>
 		<key>SmUUID</key>
-		<string>B23A1325-B2D9-5277-9ED4-AB8CD25FD37D</string>
+		<string>2C224C02-36D5-4185-BBFD-95C2DC097E2D</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>B23A1325-B2D9-5277-9ED4-AB8CD25FD37D</string>
+		<string>D94DCEAB-3F12-42E1-9D33-A0756F1FE709</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
