@@ -3,6 +3,7 @@
 ## 我的电脑配置：
 * CPU:I5-7200U
 * GPU:INTEL HD 620
+* 无线网卡：intel 8265ac
 * 内存：Micron 4GB*2
 * 固态硬盘：LITEON CB1-SD256
 * 声卡：Realtek ALC298
