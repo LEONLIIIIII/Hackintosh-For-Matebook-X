@@ -17,7 +17,7 @@
 	<key>DisplayProductID</key>
 	<integer>41011</integer>
 	<key>DisplayProductName</key>
-	<string>SwitchResX4 - P130ZDZ-EF1</string>
+	<string>Macbook Pro</string>
 	<key>DisplayVendorID</key>
 	<integer>1552</integer>
 	<key>IOGFlags</key>
@@ -36,19 +36,16 @@
 	<key>scale-resolutions</key>
 	<array>
 		<data>
-		AAAJYAAABkAA
-		</data>
-		<data>
-		AAAPAAAACgAA
-		</data>
-		<data>
-		AAAMgAAACFUA
-		</data>
-		<data>
 		AAAKgAAABwAA
 		</data>
 		<data>
+		AAAKAAAABqwA
+		</data>
+		<data>
 		AAAIcAAABaAA
+		</data>
+		<data>
+		AAAHgAAABQAA
 		</data>
 	</array>
 	<key>target-default-ppmm</key>
