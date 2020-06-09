@@ -76,6 +76,7 @@ killall Terminal
 * 8265无线网卡
 * 声卡
 ## 不工作：
+* 指纹
 * 快捷键（有空再折腾）
 * ~~WIFI（intel板载无线网卡无解，也无法更换，但是能用usb无线网卡）~~
 * ~~iMessage，FaceTime不可使用（无对应机型的白果三码）~~
