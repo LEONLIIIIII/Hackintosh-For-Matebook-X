@@ -14,7 +14,7 @@
 ## 更新（2020.6.9）
 * **重新编辑config文件，更换使用OC 0.5.7引导，启动速度更快，配置文件更简洁。**
 * 可从10.15其他版本直升最新版本（理论上也可以从Mojave直升）
-* 新增蓝牙驱动。**英特尔Wi-Fi也已经可以驱动（配置中没添加，请自行下载使用，告别usb网卡）**
+* 新增蓝牙驱动。**英特尔Wi-Fi也已经可以驱动（配置中没添加，请自行下载使用，告别usb网卡http://bbs.pcbeta.com/viewthread-1848662-1-1.html）**
 * 更改hidpi的分辨率配置，显示效果更完美。
 ## 更新：
 * 更新最新驱动支持10.15Beta，无痛升级。
@@ -91,6 +91,7 @@ killall Terminal
 将DisplayVendorID-dae文件夹和Icons.plist放到系统⁩\⁨资源库\Displays⁩\⁨Contents\Resources\⁨Overrides文件夹下开启hidpi
 ## 感谢：
 * [远景论坛-微软极客社区](http://www.pcbeta.com)
+* [intelwifi](http://bbs.pcbeta.com/viewthread-1848662-1-1.html)
 * [github: gnodipac886/MatebookXPro-hackintosh](https://github.com/gnodipac886/MatebookXPro-hackintosh)
 * [Issue:Right channel audio not working ](https://github.com/lidel/linux-on-huawei-matebook-x-2017/issues/8) in [lidel/linux-on-huawei-matebook-x-2017](https://github.com/lidel/linux-on-huawei-matebook-x-2017)
 * [github:goodwin/ALCPlugFix](https://github.com/goodwin/ALCPlugFix)
