@@ -1,5 +1,5 @@
-#
-##步骤如下：
+# 使用Huawei-sound.sh脚本和sleepwatcher设置每次唤醒时自动后台运行修复右边扬声器不工作。
+## 步骤如下：
 
 先安装brew，打开终端，运行：
 ```
@@ -41,4 +41,4 @@ killall Terminal
 按esc然后输入
 `:wq`
 在系统偏好设置的用户与群组登录项里添加hwsound-fix
-(注：如果运行huawei-sound.sh提示hda verb：command not found，先安装一下alc298_fix文件夹里的自动安装脚本)
+**(注：如果运行huawei-sound.sh提示hda verb：command not found，请确保CodecCommander.kext驱动正确加载，并尝试安装一下alc298_fix文件夹里的自动安装脚本)**
