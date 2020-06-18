@@ -8,6 +8,11 @@
 * 固态硬盘：LITEON CB1-SD256
 * 声卡：Realtek ALC298
 * 显示器：2160x1440 2k
+## 更新 （2020.6.18）
+* **修改操作系统更名补丁，解决其对OC引导Windows或者使用原生Boot Camp切换Windows的影响。**
+* 在以上基础上，原生Boot Camp正常工作，在macOS和Windows下皆可相互切换，且无任何不工作的硬件。（**macOS中启动转换助理里下载Windows支持软件，然后使用启动磁盘切换到Windows，再安装Windows支持软件即可。如若D盘被隐藏，使用cmd的diskpart命令清除分区参数，随后再用磁盘管理分配盘符。**）
+* 更新触摸板驱动至最新（之前一直忘了这个2333）
+* 加入了z大的itlwm英特尔Wi-Fi驱动，Wi-Fi名称和密码自行在驱动里修改。[zxystd/itlwm](https://github.com/zxystd/itlwm)
 ## 更新（2020.6.10）
 * **oc引导版本更新至0.5.9**
 * 驱动更新为最新版本
@@ -22,49 +27,7 @@
 * 更新注入声卡id，同时使用ALCPlugFix修复耳麦自动切换，感谢远景论坛网友提供帮助。
 * 修复iMessage、FaceTime、Siri，感谢Matebook X Pro群里的小伙伴提供帮助。
 * 修复亮度快捷键，其他快捷键使用[karabiner-elements](https://github.com/tekezo/Karabiner-Elements)软件映射。
-* 使用sleepwatcher设置每次唤醒时自动后台运行Huawei-sound.sh修复右边扬声器不工作,步骤如下：
-
-先安装brew，打开终端，运行：
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-brew安装成功后，再运行：
-```
-brew install sleepwatcher
-```
-启动sleepwatcher：
-```
-brew services start sleepwatcher
-```
-编辑配置文件
-```
-touch .wakeup 
-sudo chmod 777 .wakeup 
-vi .wakeup 
-```
-按i插入：
-```
-sh /你的路径/huawei-sound.sh &
-killall Terminal
-```
-按esc然后输入
-`:wq`
-
-ok了。sleepwatcher只能唤醒时自动运行脚本，还要设置开机自动运行：
-```
-touch hwsound-fix
-sudo chmod 777 hwsound-fix
-vi hwsound-fix
-```
-按i插入：
-```
-sh /你的路径/huawei-sound.sh &
-killall Terminal
-```
-按esc然后输入
-`:wq`
-在系统偏好设置的用户与群组登录项里添加hwsound-fix
-(注：如果运行huawei-sound.sh提示hda verb：command not found，先安装一下alc298_fix文件夹里的自动安装脚本)
+* 使用sleepwatcher设置每次唤醒时自动后台运行Huawei-sound.sh修复右边扬声器不工作。
 
 ## 工作：
 * cpu变频
@@ -92,7 +55,8 @@ killall Terminal
 ## 感谢：
 * [远景论坛-微软极客社区](http://www.pcbeta.com)
 * [intelwifi](http://bbs.pcbeta.com/viewthread-1848662-1-1.html)
-* [github: gnodipac886/MatebookXPro-hackintosh](https://github.com/gnodipac886/MatebookXPro-hackintosh)
+* [github:gnodipac886/MatebookXPro-hackintosh](https://github.com/gnodipac886/MatebookXPro-hackintosh)
 * [Issue:Right channel audio not working ](https://github.com/lidel/linux-on-huawei-matebook-x-2017/issues/8) in [lidel/linux-on-huawei-matebook-x-2017](https://github.com/lidel/linux-on-huawei-matebook-x-2017)
 * [github:goodwin/ALCPlugFix](https://github.com/goodwin/ALCPlugFix)
+* [github:zxystd/itlwm](https://github.com/zxystd/itlwm)
 
