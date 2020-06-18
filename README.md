@@ -8,6 +8,8 @@
 * 固态硬盘：LITEON CB1-SD256
 * 声卡：Realtek ALC298
 * 显示器：2160x1440 2k
+## 更新 （2020.6.19）
+* **新增i7-7500U版MatebookX机型的支持（ps：一直没发现这俩机型配置文件并不通用。。。i7版暂时无法使用AppleALC声卡驱动，目前使用VoodooHDA万能声卡驱动代替，功能正常使用，使用此驱动时要修复右扬声器不工作一定要先运行一下alc298_fix文件夹里的自动安装脚本。）**
 ## 更新 （2020.6.18）
 * **修改操作系统更名补丁，解决其对OC引导Windows或者使用原生Boot Camp切换Windows的影响。详细内容见[修复操作系统更名补丁对OC引导Windows的影响](https://github.com/4323770/Hackintosh-For-Matebook-X/tree/master/修复操作系统更名补丁对OC引导Windows的影响)。**
 * 在以上基础上，原生Boot Camp正常工作，在macOS和Windows下皆可相互切换，且无任何不工作的硬件。（**macOS中启动转换助理里下载Windows支持软件，然后使用启动磁盘切换到Windows，再安装Windows支持软件即可。如若D盘被隐藏，使用cmd的diskpart命令清除分区参数，随后再用磁盘管理分配盘符。**）
