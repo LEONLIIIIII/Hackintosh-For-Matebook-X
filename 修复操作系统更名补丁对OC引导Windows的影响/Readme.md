@@ -1,4 +1,4 @@
-   # 解决_OSI to XOSI操作系统补丁对OC引导Windows或BootCamp切换Windows时的影响
+# 解决_OSI to XOSI操作系统补丁对OC引导Windows或BootCamp切换Windows时的影响
    
 &emsp;&emsp;_OSI to XOSI（SSDT-XOSI）等操作系统更名补丁，主要用于伪装成特定的操作系统，以使某些只能在该系统下工作的硬件工作，常见的如，只能在Win8以上系统工作的I2C触摸板。所以基本上使用I2C触摸板的笔记本都得使用这类操作系统补丁才能使触摸板正常工作。
    
