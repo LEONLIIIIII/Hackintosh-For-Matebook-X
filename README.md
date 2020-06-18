@@ -12,6 +12,7 @@
 * **修改操作系统更名补丁，解决其对OC引导Windows或者使用原生Boot Camp切换Windows的影响。**
 * 在以上基础上，原生Boot Camp正常工作，在macOS和Windows下皆可相互切换，且无任何不工作的硬件。（**macOS中启动转换助理里下载Windows支持软件，然后使用启动磁盘切换到Windows，再安装Windows支持软件即可。如若D盘被隐藏，使用cmd的diskpart命令清除分区参数，随后再用磁盘管理分配盘符。**）
 * 更新触摸板驱动至最新（之前一直忘了这个2333）
+* 加入了z大的itlwm英特尔Wi-Fi驱动，Wi-Fi名称和密码自行在驱动里修改。[zxystd/itlwm](https://github.com/zxystd/itlwm)
 ## 更新（2020.6.10）
 * **oc引导版本更新至0.5.9**
 * 驱动更新为最新版本
@@ -96,7 +97,8 @@ killall Terminal
 ## 感谢：
 * [远景论坛-微软极客社区](http://www.pcbeta.com)
 * [intelwifi](http://bbs.pcbeta.com/viewthread-1848662-1-1.html)
-* [github: gnodipac886/MatebookXPro-hackintosh](https://github.com/gnodipac886/MatebookXPro-hackintosh)
+* [github:gnodipac886/MatebookXPro-hackintosh](https://github.com/gnodipac886/MatebookXPro-hackintosh)
 * [Issue:Right channel audio not working ](https://github.com/lidel/linux-on-huawei-matebook-x-2017/issues/8) in [lidel/linux-on-huawei-matebook-x-2017](https://github.com/lidel/linux-on-huawei-matebook-x-2017)
 * [github:goodwin/ALCPlugFix](https://github.com/goodwin/ALCPlugFix)
+* [github:zxystd/itlwm](https://github.com/zxystd/itlwm)
 
