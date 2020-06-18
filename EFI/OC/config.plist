@@ -52,7 +52,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-XOSI.aml</string>
+				<string>SSDT-XOSI-FIX.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
