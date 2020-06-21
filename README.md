@@ -62,7 +62,7 @@ Matebook X黑苹果的功能性方面基本全部完善，以后多为小修小�
 ## 修复右扬声器
 ~~用终端运行Huawei-sound.sh修复右边扬声器不工作~~ 见更新内容
 ## 开启原生HIDPI
-将DisplayVendorID-dae文件夹和Icons.plist放到系统⁩\⁨资源库\Displays⁩\⁨Contents\Resources\⁨Overrides文件夹下开启hidpi
+双击自动安装脚本一键安装。（ps：如自动安装出错请手动将DisplayVendorID-dae文件夹和Icons.plist放到系统⁩\⁨资源库\Displays⁩\⁨Contents\Resources\⁨Overrides文件夹下开启hidpi）
 ## 感谢：
 * [远景论坛-微软极客社区](http://www.pcbeta.com)
 * [intelwifi](http://bbs.pcbeta.com/viewthread-1848662-1-1.html)
