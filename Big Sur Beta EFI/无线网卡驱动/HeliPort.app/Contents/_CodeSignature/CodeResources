@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		+KBBoZoyXuBpm+I5dik6c8JnpLY=
+		5DK+OGpS2AkuargZeigh17FNPoY=
 		</data>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
 		<data>
@@ -49,10 +49,10 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			R0DbNCNdSzXNlktfPS8JzcSu49w=
+			yV8K/1ar1JTVmwftzr/8zIWVoSQ=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"d2a417c829a75e74cffea563ac764e63e48eb3bd" or cdhash H"4740db34235d4b35cd964b5f3d2f09cdc4aee3dc"</string>
+			<string>cdhash H"6a688667c45b38cc5f8dba8e9d7d91fde8ed1366" or cdhash H"c95f0aff56abd494d59b07edcebffccc8595a124"</string>
 		</dict>
 		<key>Frameworks/Sparkle.framework</key>
 		<dict>
@@ -164,7 +164,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			verrEl1V8m82MXIpwTWnObEN8tmIRSjEvkXlkynn5hU=
+			COTvJqQk3Z35LHtIVurEbn8wnSVHt5Ic5zuT1hvGMe0=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
