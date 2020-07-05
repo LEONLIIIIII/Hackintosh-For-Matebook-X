@@ -25,7 +25,7 @@
 
 *2：升级安装完成后重启至OC，可能会无法找到Big Sur的启动项，需要，方法一：在设置config.plist->misc->BlessOveride添加启动路径：\System\Library\CoreServices\boot.efi；方法二：进入recovery或者时光机器恢复界面，左上角苹果标志选择启动磁盘，选择10.16启动，就会生成Big Sur的启动项。*
 
-* **~~Big Sur Beta版系统更新了unix内核，修复了在Matebook X长久以来右扬声器不工作的bug，因此在本系统下不使用修复补丁即可完美驱动双扬声器！！！~~**（经测试似乎是因为更新了BIOS或者APPLEALC驱动更新修复的。。。）
+* **~~Big Sur Beta版系统更新了unix内核，修复了在Matebook X长久以来右扬声器不工作的bug，因此在本系统下不使用修复补丁即可完美驱动双扬声器！！！~~**（经测试是因为最新版本BIOS修复的。。。）
 * **测试版系统不完善，且黑苹果更是问题较多，安装前请三思而行，并且做好备份。**
 ### 正常运行：
 * cpu变频
