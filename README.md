@@ -12,6 +12,7 @@
 ## 更新 （2020.7.5）
 
 * **修复了使用三星PM971固态硬盘（SAMSUNG MZ2LZ256HMJP-00000）的Matebook X无法引导进macOS的问题。**
+* **确认是由BIOS更新修复右扬声器不工作的BUG，故移除右扬声器补丁，详情见[右扬声器补丁](https://github.com/LEONLIIIIII/Hackintosh-For-Matebook-X/tree/master/右扬声器补丁)**
 
 ## 更新 （2020.7.1）
 
