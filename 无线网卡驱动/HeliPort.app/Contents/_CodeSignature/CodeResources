@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		5DK+OGpS2AkuargZeigh17FNPoY=
+		Ob9Rz5ImPDU6hxf88V2H/UoO9oA=
 		</data>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
 		<data>
@@ -24,20 +24,56 @@
 		<data>
 		Zn4NS1U1fG5829oAbJwhxd7Gi3c=
 		</data>
-		<key>Resources/zh-Hans.lproj/Localizable.strings</key>
+		<key>Resources/el.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6ZQ+TaFtmGC2WB6LczI0U7sc67Q=
+			ZXVnZw6IxK260G/KA46iR/mk020=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/zh-Hans.lproj/MainMenu.strings</key>
+		<key>Resources/es.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Kq8y9wexRenDAM1OVPw8e1GjRBQ=
+			/fGZaYjGet3QhdqRFPFO/hauLG8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/it.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uTQ4tN+rgAYL/zYmHvIHW16Vv+Y=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/pt-BR.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			B8QSX+yZg76NR5PEytpAr5dsh1M=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/tr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tb6jqDxzhRrOHv+kWcLLJIUc6X8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/zh-Hans.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IXl/zG9G7huG/iF2J2oXTmNXgEk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -49,10 +85,10 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			yV8K/1ar1JTVmwftzr/8zIWVoSQ=
+			uhUdhVWIgyHpot5Dt7RGtvlL2DA=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"6a688667c45b38cc5f8dba8e9d7d91fde8ed1366" or cdhash H"c95f0aff56abd494d59b07edcebffccc8595a124"</string>
+			<string>cdhash H"623c9577375059c0170e859cfb049fc51889fb12" or cdhash H"ba151d8555888321e9a2de43b7b446b6f94bd830"</string>
 		</dict>
 		<key>Frameworks/Sparkle.framework</key>
 		<dict>
@@ -164,7 +200,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			COTvJqQk3Z35LHtIVurEbn8wnSVHt5Ic5zuT1hvGMe0=
+			x5LjbPeu9tgrTQr2hYnO2GRhw28y9f7ugSUkuA3ZFH8=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
@@ -188,20 +224,56 @@
 			xyG66uq0qwyDlccwOyeOTP/xk5S+CvmTVtSYwcE4KCg=
 			</data>
 		</dict>
-		<key>Resources/zh-Hans.lproj/Localizable.strings</key>
+		<key>Resources/el.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VM9VnQTuLAkYEW93XMPNfVgFSuVNKxGgXMSKAZr4aKQ=
+			6nsv+GN3ojnlHyIdmIdldXl94E7OQdNUiPK/XACWOac=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Resources/zh-Hans.lproj/MainMenu.strings</key>
+		<key>Resources/es.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W6qzTvaKxNB+UY0HDqzTfYni7jETQGUqFnI0Jzpc97Y=
+			In89IMPTaxko0JV/GxhaRQMEUd4yKn2eAgMTapQVnk0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/it.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			spz6K/ruxs/WCuJk06D7KIh6k0fqq1FcdHv/1tesASU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/pt-BR.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5kgvsoYh4AsI0nCYeSTSi2IAeJtk00eQvmVC+ZDliM8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/tr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OadSkr1KZ/p62HzqvlALK67LS+X2m3jW9fJpepv66as=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/zh-Hans.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			flN/tN0JBbifCGmwHyJJjiZ+R7sJwK1UPiEi+1LvxsM=
 			</data>
 			<key>optional</key>
 			<true/>
