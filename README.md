@@ -1,5 +1,5 @@
 # Hackintosh-For-MatebookX
-新增Big Sur Beta版系统的支持。测试版系统不完善，且黑苹果更是问题较多，安装前请三思而行，并且做好备份。
+更新oc版本和驱动，支持bigsur正式版，可从Catalina直升。
 ## 我的电脑配置：
 * CPU:I5-7200U
 * GPU:INTEL HD 620
@@ -8,6 +8,12 @@
 * 固态硬盘：LITEON CB1-SD256
 * 声卡：Realtek ALC298
 * 显示器：2160x1440 2k
+
+## 更新 （2020.11.17）
+
+* 更新oc版本和驱动，支持bigsur正式版。可从Catalina直升，直升前请先替换最新EFI文件。
+* 默认添加itlwm英特尔无线网驱动，新安装只需要打开heliport软件即可访问网络。
+* 修改hidpi脚本，支持Big Sur下一键开启原生hidpi。
 
 ## 更新 （2020.7.5）
 
